@@ -1,0 +1,80 @@
+Introdução de versão do git
+
+controlando as versões do codigo, precisanmos versionar o codigo .
+Modelo destribuidos
+Baseado em snapshots
+Basicamente offline
+Forte foco em integridade dos dados e velocidade
+
+Working Directory
+  area acessivel ao usuario para trabalhar
+Staging Area
+Repository Location,
+
+comando
+
+git config user.name "nome"
+git config user.email "email"
+git config core.editor vim // configura o vim, editor
+
+git init / iniciar um projeto local
+git clone / clonar um prjeto no  github para maquina local,
+
+git status / estado atual do projeto , branch, e modification to save
+
+git commit -m "messagem do commit" -
+git commit  / assim abre o editor para deixar uma mesg bem claras
+
+1 linha titulo // adiciona botao de delete home , deixar no imperativo.
+
+2 descrição do task,
+
+// git branch // ramificação
+
+git checkou -b "nomeda branch"
+se eu colocar D assim , ele deleta na force brute
+
+git merge
+git rebase
+
+
+git conflict // resolvent
+
+git branch -d(apaga a branch)"nome da branch"
+
+listar todas as branches
+git branch -vv
+
+Trabalhando REMOTES
+gitHub, Bitbucker, GitLab  =  privados e public
+
+git remote add [origin, pages] endereço do repositorio
+
+git remote set-url [origin, pages] endereço do repositorio
+podemos mudar o endereço de um remoto ja configurado .
+
+podemos remover remotos
+git remote remover origin
+
+podemos ter uma visao geral dos remotes
+git remote show origin
+
+podemos listar todos remotes configurados
+git remote -v
+git diff   // verificar quais mudanças foram feitas
+
+
+git fetch origin --all //buscas todos os remotes configurados
+git pull  origin master
+
+listar todos os remotes na maquina
+git remote -r
+git push origin  --delete 'branch-remote'
+
+
+controle de versao do git parte 2
+git init === iniciar um directory git  criando branch master
+.gitignore ===  ignora tudo estiver neste documento
+
+
+Clean Code e logging
